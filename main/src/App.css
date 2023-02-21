@@ -52,6 +52,7 @@ ul li {
 
 .fretboard-container {
   color: whitesmoke;
+  background-color: rgb(43, 12, 12);
   border-left: 0.2rem solid black;
   width: 95vw;
   margin: 0 auto 0 auto;
@@ -79,7 +80,13 @@ hr {
   justify-content: space-around;
   width: 100%;
   height: 6vh;
-  border-right: 0.1rem solid red;
+  border-right: 0.1rem solid silver;
   z-index: 100;
   cursor: pointer;
+}
+header {
+  color: whitesmoke;
+  background-color: #555658;
+  padding: 1.5vh 0 1.5vh 2vw;
+  margin: 0 0 3vh 0;
 }
