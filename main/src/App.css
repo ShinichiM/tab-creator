@@ -84,6 +84,19 @@ hr {
   z-index: 100;
   cursor: pointer;
 }
+
+.note:hover .circle {
+  color: white;
+  background-color: rgba(211, 84, 0, 0.4);
+}
+.circle {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: rgba(211, 84, 0, 0);
+  text-align: center;
+}
+
 header {
   color: whitesmoke;
   background-color: #555658;
